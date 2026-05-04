@@ -42,15 +42,15 @@ http://localhost/phpmyadmin
 - Create a new database:
 
 ```sql
-CREATE DATABASE library_db;
+CREATE DATABASE library;
 ```
 
 ### 3. Import Database File
 
-- Open database `library_db`
+- Open database `library`
 - Click **Import**
 - Upload the provided SQL file from the project folder  
-  (example: `library_db.sql`)
+  (example: `library.sql`)
 - Click **Go**
 
 ### 4. Configure Database Connection
