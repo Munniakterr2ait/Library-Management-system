@@ -7,7 +7,7 @@ A desktop-based Library Management System developed using Java and MySQL to mana
 - Java
 - MySQL
 - JDBC
-- NetBeans / IntelliJ IDEA
+- NetBeans 
 - XAMPP
 
 ## Features
@@ -15,9 +15,9 @@ A desktop-based Library Management System developed using Java and MySQL to mana
 - Add new books
 - View/search books
 - Update book information
-- Delete book records
 - Student management
 - Book issue and return system
+- due/overdue Remainder
 
 ## Project Setup Instructions
 
@@ -59,21 +59,19 @@ Open database connection file (example: `DBConnection.java`) and update:
 ```java
 String url = "jdbc:mysql://localhost:3306/library_db";
 String user = "root";
-String password = "";
+String password = "root123";
 ```
-
-> Default XAMPP username is `root` and password is empty.
 
 ### 5. Add MySQL JDBC Driver
 
 Add MySQL Connector JAR file to project libraries.
 
 - NetBeans: Project → Properties → Libraries → Add JAR
-- IntelliJ: File → Project Structure → Libraries
+- File → Project Structure → Libraries
 
 ### 6. Run Project
 
-- Open project in NetBeans or IntelliJ
+- Open project in NetBeans 
 - Locate main file (`Main.java` / `Login.java`)
 - Click **Run**
 
