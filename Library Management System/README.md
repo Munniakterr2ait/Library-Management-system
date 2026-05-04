@@ -8,7 +8,6 @@ A desktop-based Library Management System developed using Java and MySQL to mana
 - MySQL
 - JDBC
 - NetBeans 
-- XAMPP
 
 ## Features
 
