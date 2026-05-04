@@ -12,6 +12,7 @@ A desktop-based Library Management System developed using Java and MySQL to mana
 
 ## Features
 
+- login/ registration
 - Add new books
 - View/search books
 - Update book information
